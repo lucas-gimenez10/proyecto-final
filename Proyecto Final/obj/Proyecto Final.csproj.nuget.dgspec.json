@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\Desktop\\Proyecto Final\\Proyecto Final\\Proyecto Final.csproj": {}
+    "C:\\Users\\lucas\\Documents\\GitHub\\proyecto-final\\Proyecto Final\\Proyecto Final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\Desktop\\Proyecto Final\\Proyecto Final\\Proyecto Final.csproj": {
+    "C:\\Users\\lucas\\Documents\\GitHub\\proyecto-final\\Proyecto Final\\Proyecto Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\Desktop\\Proyecto Final\\Proyecto Final\\Proyecto Final.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\Documents\\GitHub\\proyecto-final\\Proyecto Final\\Proyecto Final.csproj",
         "projectName": "Proyecto Final",
-        "projectPath": "C:\\Users\\lucas\\Desktop\\Proyecto Final\\Proyecto Final\\Proyecto Final.csproj",
+        "projectPath": "C:\\Users\\lucas\\Documents\\GitHub\\proyecto-final\\Proyecto Final\\Proyecto Final.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\Desktop\\Proyecto Final\\Proyecto Final\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\Documents\\GitHub\\proyecto-final\\Proyecto Final\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -12,3 +12,5 @@ Console.WriteLine("id: {0}, idProducto: {1}, stock: {2}, idVenta:{3}",prodvendid
 
 Venta venta1 = new Venta(1, "sin comentarios", 1);
 Console.WriteLine("id: {0}, comentario: {1}, Idusuario: {2}", venta1.id, venta1.comentarios, venta1.idUsuario);
+
+Console.ReadLine();
