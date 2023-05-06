@@ -8,20 +8,12 @@ namespace Proyecto_Final
 {
     internal class Venta
     {
-        #region Atributos
-
-        private int _id;
-        private string _comentarios;
-        private int _idUsuario;
-
-        #endregion
-
         #region Propiedades
 
         public int id { get; set; }
         public string comentarios { get; set;}
         public int idUsuario { get; set; }
-
+        
         #endregion
 
         #region Constructores

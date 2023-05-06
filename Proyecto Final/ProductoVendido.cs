@@ -8,15 +8,6 @@ namespace Proyecto_Final
 {
     internal class ProductoVendido
     {
-        #region Atributos
-
-        private int _id;
-        private int _idProducto;
-        private int _stock;
-        private int _idVenta;
-
-        #endregion
-
         #region Propiedades
 
         public int id { get; set; }

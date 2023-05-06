@@ -8,18 +8,6 @@ namespace Proyecto_Final
 {
     internal class Producto
     {
-
-        #region Atributos
-        
-        private int _id;
-        private string _descripcion;
-        private float _costo;
-        private float _precioVenta;
-        private int _stock;
-        private int _idUsuario;
-
-        #endregion
-
         #region Propiedades
         
         public int id { get; set; }

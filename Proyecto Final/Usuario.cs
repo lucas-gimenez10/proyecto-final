@@ -8,17 +8,6 @@ namespace Proyecto_Final
 {
     internal class Usuario
     {
-        #region Atributos
-
-        private int _id;
-        private string _nombre;
-        private string _apellido;
-        private string _nombreUsuario;
-        private string _contrasena;
-        private string _mail;
-
-        #endregion
-
         #region Propiedades
 
         public int id { get; set; }
