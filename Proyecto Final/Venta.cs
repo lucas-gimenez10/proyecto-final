@@ -10,9 +10,17 @@ namespace Proyecto_Final
     {
         #region Propiedades
 
-        public int id { get; set; }
-        public string comentarios { get; set;}
-        public int idUsuario { get; set; }
+        private int id = 0;
+        private string comentarios = string.Empty;
+        private int idUsuario = 0;
+
+        #endregion
+
+        #region Setters and Getters
+
+        public int Id { get; set; }
+        public string Comentarios { get; set;}
+        public int IdUsuario { get; set; }
         
         #endregion
 
@@ -20,9 +28,9 @@ namespace Proyecto_Final
         
         public Venta(int id, string comentarios, int idUsuario)
         {
-            this.id = id;
-            this.comentarios = comentarios;
-            this.idUsuario = idUsuario;
+            Id = id;
+            Comentarios = comentarios;
+            IdUsuario = idUsuario;
         }
         
         #endregion

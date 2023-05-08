@@ -10,10 +10,19 @@ namespace Proyecto_Final
     {
         #region Propiedades
 
-        public int id { get; set; }
-        public int idProducto { get; set; }
-        public int stock { get; set; }
-        public int idVenta { get; set; }
+        private int id = 0;
+        private int idProducto = 0;
+        private int stock = 0;
+        private int idVenta = 0;
+
+        #endregion
+
+        #region Setters and Getters
+
+        public int Id { get; set; }
+        public int IdProducto { get; set; }
+        public int Stock { get; set; }
+        public int IdVenta { get; set; }
 
         #endregion
 
@@ -21,10 +30,10 @@ namespace Proyecto_Final
 
         public ProductoVendido(int id, int idProducto, int stock, int idVenta)
         {
-            this.id = id;
-            this.idProducto = idProducto;
-            this.stock = stock;
-            this.idVenta = idVenta;
+            Id = id;
+            IdProducto = idProducto;
+            Stock = stock;
+            IdVenta = idVenta;
         }
 
         #endregion

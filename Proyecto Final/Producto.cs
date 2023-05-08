@@ -9,25 +9,36 @@ namespace Proyecto_Final
     internal class Producto
     {
         #region Propiedades
-        
-        public int id { get; set; }
-        public string descripcion { get; set; }
-        public float costo { get; set; }
-        public float precioVenta { get; set; }
-        public int stock { get; set; }
-        public int idUsuario { get; set; }
+
+        private int id = 0;
+        private string descripcion = string.Empty;
+        private float costo = 0f;
+        private float precioVenta = 0f;
+        private int stock = 0;
+        private int idUsuario = 0;
+
+        #endregion
+
+        #region Setters and Getters
+
+        public int Id { get; set; }
+        public string Descripcion { get; set; }
+        public float Costo { get; set; }
+        public float PrecioVenta { get; set; }
+        public int Stock { get; set; }
+        public int IdUsuario { get; set; }
         
         #endregion
 
         #region Constructores
         
         public Producto(int id, string descripcion, float costo, float precioVenta, int stock, int idUsuario) {
-            this.id = id;
-            this.descripcion = descripcion;
-            this.costo = costo;
-            this.precioVenta = precioVenta;
-            this.stock = stock;
-            this.idUsuario = idUsuario;
+            Id = id;
+            Descripcion = descripcion;
+            Costo = costo;
+            PrecioVenta = precioVenta;
+            Stock = stock;
+            IdUsuario = idUsuario;
         }
         
         #endregion

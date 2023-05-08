@@ -10,12 +10,23 @@ namespace Proyecto_Final
     {
         #region Propiedades
 
-        public int id { get; set; }
-        public string nombre { get; set; }
-        public string apellido { get; set; }
-        public string nombreUsuario { get; set; }
-        public string contrasena { get; set; }
-        public string mail { get; set; }
+        private int id = 0;
+        private string nombre = string.Empty;
+        private string apellido = string.Empty;
+        private string nombreUsuario = string.Empty;
+        private string contrasena = string.Empty;
+        private string mail = string.Empty;
+
+        #endregion
+
+        #region Setters and Getters
+
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public string NombreUsuario { get; set; }
+        public string Contrasena { get; set; }
+        public string Mail { get; set; }
 
         #endregion
 
@@ -23,12 +34,12 @@ namespace Proyecto_Final
 
         public Usuario(int id, string nombre, string apellido, string nombreUsuario, string contrasena, string mail)
         {
-            this.id = id;
-            this.nombre = nombre;
-            this.apellido = apellido;
-            this.nombreUsuario = nombreUsuario;
-            this.contrasena = contrasena;
-            this.mail = mail;
+            Id = id;
+            Nombre = nombre;
+            Apellido = apellido;
+            NombreUsuario = nombreUsuario;
+            Contrasena = contrasena;
+            Mail = mail;
         }
 
         #endregion
