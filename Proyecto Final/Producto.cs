@@ -12,8 +12,8 @@ namespace Proyecto_Final
 
         private int id = 0;
         private string descripcion = string.Empty;
-        private float costo = 0f;
-        private float precioVenta = 0f;
+        private double costo = 0;
+        private double precioVenta = 0;
         private int stock = 0;
         private int idUsuario = 0;
 
@@ -23,8 +23,8 @@ namespace Proyecto_Final
 
         public int Id { get; set; }
         public string Descripcion { get; set; }
-        public float Costo { get; set; }
-        public float PrecioVenta { get; set; }
+        public double Costo { get; set; }
+        public double PrecioVenta { get; set; }
         public int Stock { get; set; }
         public int IdUsuario { get; set; }
         
@@ -32,7 +32,7 @@ namespace Proyecto_Final
 
         #region Constructores
         
-        public Producto(int id, string descripcion, float costo, float precioVenta, int stock, int idUsuario) {
+        public Producto(int id, string descripcion, double costo, double precioVenta, int stock, int idUsuario) {
             Id = id;
             Descripcion = descripcion;
             Costo = costo;
